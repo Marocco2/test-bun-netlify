@@ -8,5 +8,6 @@ export default defineConfig({
   experimental: {
     contentCollectionCache: true,
   },
+  cacheDir: './cache',
   integrations: [preact()]
 });
